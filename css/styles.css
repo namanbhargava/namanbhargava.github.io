@@ -1,0 +1,92 @@
+/* Color pallate
+#1F2041 Blu
+#4B3F72 Purple
+#417B5A green
+#D0CEBA gray
+#E9D2C0 dust
+*/
+
+
+
+/* Global styles
+---------------------*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1, h2{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1{
+  font-size: 80px;
+}
+h2{
+  font-size: 40px;
+  margin-top: 0;
+}
+a{
+  color : #E9D2C0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+
+
+/* Header and footers
+----------------------*/
+header, footer{
+  background: #1F2041;
+  color: #D0CEBA;
+}
+
+/* Header
+-----------------------*/
+
+header h1, header h2{
+  color: #E9D2C0;
+  margin: 0;
+}
+
+.profile-img
+{
+  float: left;
+  width: 300px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+/* footer
+-----------------------*/
+footer{
+  text-align: center;
+}
+.contact-info a
+{
+  padding: 10px;
+  display: inline-block;
+}
+
+
+
+/* Work Experience
+----------------------*/
+.work{
+  background: #4B3F72;
+}
+
+
+/* Education
+----------------------*/
+.education{
+  background: #417B5A;
+}
