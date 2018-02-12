@@ -1,21 +1,88 @@
 /* Color pallate
-#1F2041 Blu
-#4B3F72 Purple
-#417B5A green
-#D0CEBA gray
-#E9D2C0 dust
+#FFFFFF white
+#00171F Dark blue
+003459 Dark Light blue
+007EA7 Light blue
+00A8E8 Light
 */
 
 
 
 /* Global styles
 ---------------------*/
-body{
-  font-family: 'Open Sans', sans-serif;
+.navbar{
+  background-color: #00171F;
+  height: 100px;
+}
+.navbar-brand{
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.name, p,.info{
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
-h1, h2{
+.intro{
+  margin-top: 150px;
+  height : 519px;
+}
+
+.aboutMe{
+  background-color: #00A8E8;
+  height: 700px;
+}
+
+.aboutMe h3{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 90px;
+  font-size: 40px;
+  margin-bottom: 60px;
+  color: #FFFFFF;
+}
+
+.aboutMe li{
+  font-family: 'Montserrat', sans-serif;
+  color: #F4F4F8;
+  font-size: 25px;
+  text-align: justify;
+}
+footer{
+font-family: 'Montserrat', sans-serif;
+background-color: #007EA7;
+height: 230px;
+padding-top: 75px;
+color: #FFFFFF;
+font-weight: 200;
+text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul li.l{
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+}
+
+footer h3{
+  font-size: 25px;
+}
+.copy{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #003459;
+  color: #FFFFFF;
+}
+/*h1, h2{
   font-family: 'Caveat', cursive;
   font-weight: 400;
 }
@@ -38,13 +105,13 @@ a:hover{
   margin: 0 auto;
   padding: 50px;
   overflow: auto;
-}
+} */
 
 
 
 /* Header and footers
 ----------------------*/
-header, footer{
+/*header, footer{
   background: #1F2041;
   color: #D0CEBA;
 }
@@ -52,7 +119,7 @@ header, footer{
 /* Header
 -----------------------*/
 
-header h1, header h2{
+/*header h1, header h2{
   color: #E9D2C0;
   margin: 0;
 }
@@ -67,7 +134,7 @@ header h1, header h2{
 
 /* footer
 -----------------------*/
-footer{
+/*footer{
   text-align: center;
 }
 .contact-info a
@@ -75,18 +142,19 @@ footer{
   padding: 10px;
   display: inline-block;
 }
-
+*/
 
 
 /* Work Experience
 ----------------------*/
-.work{
+/*.work{
   background: #4B3F72;
 }
-
+*/
 
 /* Education
 ----------------------*/
-.education{
+/*.education{
   background: #417B5A;
 }
+*/
